@@ -101,7 +101,7 @@ namespace WindowsFormsApp1
                 newArrayEx2[i] = Abs(arrayEx2[i] % 10); // Find the last digit
             }
 
-            resultArrayEx2.Text = "Result: " + string.Join(", ", newArrayEx2);
+            resultArrayEx2.Text = "Result array: " + string.Join(", ", newArrayEx2);
         }
 
         private void AutoFill_Click2(object sender, EventArgs e)
@@ -113,8 +113,8 @@ namespace WindowsFormsApp1
                 arrayEx2[countI2] = rand.Next(10, 100); 
             }
 
-            curArrayEx2.Text = "Array: " + string.Join(" ", arrayEx2);
-            resultArrayEx2.Text = "Result: ";
+            curArrayEx2.Text = "Current Array: " + string.Join(" ", arrayEx2);
+            resultArrayEx2.Text = "Result array: ";
         }
 
         private void CheckedChanged2(object sender, EventArgs e)
@@ -128,8 +128,8 @@ namespace WindowsFormsApp1
 
             arrayEx2 = new int[8];
             countI2 = 0;
-            curArrayEx2.Text = "Array: ";
-            resultArrayEx2.Text = "Result: ";
+            curArrayEx2.Text = "Current Array: ";
+            resultArrayEx2.Text = "Result array: ";
             textBoxEx2.Clear();
         }
 

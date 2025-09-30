@@ -123,9 +123,9 @@
             this.resultLabel.AutoSize = true;
             this.resultLabel.Location = new System.Drawing.Point(53, 204);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(69, 13);
+            this.resultLabel.Size = new System.Drawing.Size(43, 13);
             this.resultLabel.TabIndex = 3;
-            this.resultLabel.Text = "Result array: ";
+            this.resultLabel.Text = "Result: ";
             // 
             // convertButton
             // 
