@@ -48,6 +48,7 @@
             this.textBoxEx2 = new System.Windows.Forms.TextBox();
             this.enterElementEx2 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.radioAutomaticMode3 = new System.Windows.Forms.RadioButton();
@@ -59,6 +60,7 @@
             this.textBoxEx3 = new System.Windows.Forms.TextBox();
             this.enterElementEx3 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -68,8 +70,6 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -293,6 +293,15 @@
             this.tabPage3.Text = "Example 3";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(10, 46);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(74, 13);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Current matrix:";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -409,6 +418,16 @@
             this.tabPage4.Text = "Example 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._123;
+            this.pictureBox1.Location = new System.Drawing.Point(327, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(95, 105);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // label10
             // 
             this.label10.Location = new System.Drawing.Point(8, 17);
@@ -478,25 +497,6 @@
             this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Enter Rows (m):";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._123;
-            this.pictureBox1.Location = new System.Drawing.Point(327, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(95, 105);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(10, 46);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 13);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Current matrix:";
             // 
             // Form1
             // 

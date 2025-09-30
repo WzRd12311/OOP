@@ -125,6 +125,7 @@ namespace WindowsFormsApp1
             textBoxEx2.Visible = isHandleMode;
             btnAutoFillEx2.Visible = !isHandleMode;
 
+
             arrayEx2 = new int[8];
             countI2 = 0;
             curArrayEx2.Text = "Array: ";
